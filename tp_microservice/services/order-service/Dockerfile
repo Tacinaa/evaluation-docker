@@ -1,0 +1,13 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY package.json ./
+RUN npm install --omit=dev
+
+COPY server.js db.js ./
+
+ENV PORT=3001
+EXPOSE 3001
+
+CMD ["node", "server.js"]
