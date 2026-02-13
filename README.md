@@ -1,6 +1,6 @@
 # Evaluation Docker
 
-Repo contenant mes TPs d'évaluation Docker :
+Repo contenant mes TPs d'une évaluation Docker dans le cadre de mon M2 :
 
 - TP1 : Manipulation des conteneurs
 - TP2 : Dockerfile et images
